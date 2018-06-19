@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/datatables.min.js"></script>
+    <script type="text/javascript" src="assets/js/file-size.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/adminLTE.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/adminLTE_skins.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/principal.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab" />
+
+
+    <title>Gintónico</title>
+</head>
+
+<body id="app" class="skin-blue layout-top-nav" style="height: 100%"></body>
+
+<script type="text/javascript" src="main.js"></script>
+
+<script>
+    function subirArchivo() {
+        document.getElementById("route").value = document.getElementById("idFile").value
+        document.getElementById("filename").value = document.getElementById("idFile").files[0]['name'];
+        document.getElementById("buttonEnviar").click()
+    }
+
+    function seleccionarArchivo(archivo) {
+        document.getElementById("archivoPedido").value = archivo
+        document.getElementById("buttonPedir").click()
+    }
+
+    function eliminarArchivo(archivo) {
+        document.getElementById("archivoEliminar").value = archivo
+        document.getElementById("buttonEliminar").click()
+    }
+</script>
+
+</html>

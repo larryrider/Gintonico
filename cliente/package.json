@@ -1,0 +1,17 @@
+{
+  "name": "gintonico",
+  "main": "index.html",
+  "single-instance": true,
+  "window": {
+    "position": "center",
+    "width": 1280,
+    "height": 720,
+    "frame": true,
+    "toolbar": true,
+    "icon": "assets/img/logo_icon.png"
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "version": "1.0.0"
+}

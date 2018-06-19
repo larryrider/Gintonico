@@ -1,0 +1,10 @@
+*.exe
+*.exe~
+servidor
+/archivos
+/archivos/*
+/databases
+/databases/*
+/certificados
+/certificados/*
+log.txt

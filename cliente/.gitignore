@@ -1,0 +1,8 @@
+/nwjs
+*.exe
+*.exe~
+gintonico
+cliente
+/descargas
+/descargas/*
+/node_modules/*
